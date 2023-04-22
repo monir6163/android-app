@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ede7f6"
+    >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beauty Of Bangladesh"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cover_image"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangladesh is a country with a unique and stunning beauty that is often overlooked by the world. The country is blessed with natural landscapes that are unparalleled in their beauty. The lush green hills of the Chittagong Hill Tracts, the world's largest mangrove forest - the Sundarbans, and the scenic beaches of Cox's Bazar are just a few examples of the country's breathtaking natural beauty.
+
+In addition to its natural wonders, Bangladesh has a rich cultural heritage that adds to its beauty. The country is home to ancient temples, mosques, and palaces that showcase its unique blend of indigenous, Mughal, and British influences. The historic Lalbagh Fort and the Sixty Dome Mosque are just a couple of examples of the country's rich cultural heritage.
+
+Bangladesh is also known for its vibrant festivals, which bring people from different parts of the country together to celebrate. Pohela Boishakh, the Bengali New Year, is a particularly colorful and joyous festival that is celebrated across the country.
+
+The people of Bangladesh are known for their warm hospitality and friendly nature, which adds to the country's beauty. Visitors to Bangladesh are often struck by how welcoming and helpful the locals are, making their experience in the country all the more enjoyable.
+
+Overall, the beauty of Bangladesh lies in its natural landscapes, rich cultural heritage, vibrant festivals, and friendly people. It is a country that has much to offer to visitors, and its beauty is a reflection of its unique history and culture."
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textFontWeight="900"
+            android:justificationMode="inter_word"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click Here To Know More"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#0A4D68"
+            android:weightSum="6"
+            >
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Share"
+                android:layout_weight="2"
+                />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Rate Us"
+                android:layout_weight="2"
+                />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="FeedBack"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="30"
+
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/like_icon"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Like"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/like_icon"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Share"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_weight="10"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/like_icon"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comment"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+</LinearLayout>
